@@ -1,0 +1,36 @@
+.main-content {
+    text-align: center;
+    color: #FFFFFF; /* Adjust the color to fit the theme of your website */
+    padding: 20px;
+  }
+  
+  .main-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .features p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+  }
+  
+  .call-to-action {
+    margin-top: 2em;
+  }
+  
+  .call-to-action .join-button {
+    background-color: #6A5ACD; /* Adjust button color to match design */
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .call-to-action .join-button:hover {
+    background-color: #7B68EE; /* Darker shade for hover effect */
+  }
+  

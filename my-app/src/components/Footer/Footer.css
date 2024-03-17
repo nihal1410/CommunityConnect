@@ -1,0 +1,30 @@
+.footer {
+    background-color: #2C2C2C; /* Footer background color */
+    color: white; /* Text color */
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: white; /* Adjust if you have a specific color for links */
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #6A5ACD; /* Color when hovering over links */
+  }
+  
