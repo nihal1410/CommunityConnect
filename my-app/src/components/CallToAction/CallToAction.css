@@ -1,0 +1,26 @@
+.call-to-action {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .cta-text {
+    color: #FFFFFF; /* Replace with the color that fits your design */
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+  
+  .cta-button {
+    background-color: #6A5ACD; /* Replace with your brand color */
+    color: #FFFFFF; /* Button text color */
+    border: none;
+    padding: 10px 25px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #7B68EE; /* Slightly lighter purple for hover effect */
+  }
+  
