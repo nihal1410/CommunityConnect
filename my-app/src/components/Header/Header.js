@@ -5,27 +5,27 @@ import BrightnessIcon from '/Users/nihalmahansaria/Desktop/CommunityConnect/my-a
 import UserIcon from '/Users/nihalmahansaria/Desktop/CommunityConnect/my-app/src/components/icons/UserIcon.png'; // Example path to icon
 
 function Header() {
-  return (
-    <header className="header">
-      <div className="icons">
-        <img src={SearchIcon} alt="Search" />
-        <img src={BrightnessIcon} alt="Brightness" />
-      </div>
-      <div className="navigation">
-        <a href="/">Home</a>
-        <a href="/store">Store</a>
-        <a href="/blog">Blog</a>
-      </div>
-      <div className="login-register">
-        <img src={UserIcon} alt="User" />
-        <div>
-          <a href="/login">Login</a>
-          <span>/</span>
-          <a href="/register">Register</a>
+    return (
+      <header className="header">
+        <div className="icon-container">
+          <img src={searchIcon} alt="Search" className="icon" />
+          <img src={brightnessIcon} alt="Brightness" className="icon" />
         </div>
-      </div>
-    </header>
-  );
-}
-
-export default Header;
+        <nav className="nav">
+          <a href="#" className="nav-link">Home</a>
+          <a href="#" className="nav-link">Store</a>
+          <a href="#" className="nav-link">Blog</a>
+        </nav>
+        <div className="user-section">
+          <img src={userIcon} alt="User" className="icon" />
+          <div className="login-register">
+            <a href="#" className="login">Login</a>
+            <span className="slash">/</span>
+            <a href="#" className="register">Register</a>
+          </div>
+        </div>
+      </header>
+    );
+  }
+  
+  export default Header;
